@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <p class="me-3 mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg></p>
+            <a class="navbar-brand fs-3" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mentorship">Mentorships</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1>Ragi Varshini Reddy</h1>
+            <p>Aspiring Full-Stack Developer | WE Scholar | Passionate Problem-Solver</p>
+            <a href="#contact" class="btn hire-btn">Hire Me</a>
+        </div>
+    </header>
+    
+    <section id="about" class="container py-5 text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="Profile_img.jpeg" alt="Profile Picture" class="img-fluid rounded-circle about-img">
+            </div>
+            <div class="col-md-6">
+                <h2 class="mt-2">About Me</h2>
+                <p class="about-text">I am a passionate Full-Stack Developer skilled in crafting modern, scalable web applications. With a strong foundation in front-end and back-end technologies, I strive to build innovative solutions that enhance user experience.</p>
+                <a href="#projects" class="btn view-btn mt-3">View My Work</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section id="education" class="container py-5 text-center">
+        <h2>Education</h2>
+        <div class="edu-box">
+            <h4>Bachelor of Technology in Computer Science</h4>
+            <p>VNR Vignana Jyothi Institute of Engineering and Technology (JNTUH), 2023 - 2027</p>
+            <p>Volunteer at Computer Society of India (CSI)</p>
+            <p>CGPA: 9.83/10</p>
+        </div>
+        <div class="edu-box">
+            <h4>Higher Secondary Education</h4>
+            <p>Excellencia Junior College, 2021 - 2023</p>
+            <p>TS EAMCET Rank: 2715</p>
+            <p>JEE Mains: 96.83 percentile</p>
+            <p>IPE: 986/1000</p>
+        </div>
+        <div class="edu-box">
+            <h4>Secondary Education</h4>
+            <p>Delhi Public School, 2011 - 2021</p>
+            <p>CBSE Boards</p>
+            <p>Merit Student & Scholar Badge Holder</p>
+            <p>Percentage: 96% (A+)</p>
+        </div>
+    </section>
+    <hr>
+
+    <section id="skills" class="container py-5">
+        <h2 class="text-center">Technical Skills</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <p class="skill-icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-filetype-html" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z"/>
+                      </svg></p>
+                    <h4>Front-End</h4>
+                    <p>HTML5, CSS3, Bootstrap, JavaScript, React.js</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <p class="skill-icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-filetype-py" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2H7v-1h5a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM0 11.85h1.6q.434 0 .732.179.302.175.46.477t.158.677-.16.677q-.158.299-.464.474a1.45 1.45 0 0 1-.732.173H.79v1.342H0zm2.06 1.714a.8.8 0 0 0 .085-.381q0-.34-.185-.521-.185-.182-.513-.182H.788v1.406h.66a.8.8 0 0 0 .374-.082.57.57 0 0 0 .238-.24m2.963.75v1.535H4.23v-1.52L2.89 11.85h.876l.853 1.696h.032l.856-1.696h.855z"/>
+                      </svg></p>
+                    <h4>Back-End</h4>
+                    <p>Node.js, Express.js, Java, Python, C, Basic R</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <p class="skill-icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-database" viewBox="0 0 16 16">
+                        <path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313M13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A5 5 0 0 0 13 5.698M14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A5 5 0 0 0 13 8.698m0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525"/>
+                      </svg></p>
+                    <h4>Databases</h4>
+                    <p>SQL*Plus, MongoDB, Oracle SQL, SQLite, PL/SQL</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card">
+                    <p class="skill-icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                        <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+                      </svg></p>
+                    <h4>Tools</h4>
+                    <p>Git, GitHub, GitLab, Power BI, REST API, Linux Terminal, LaTeX, VS Code</p>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <hr>
+    
+    <section id="projects" class="container py-5">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="project-card p-3 border rounded">
+                    <h4>User Blog Application (Feb 2025)</h4>
+                    <p>MERN Stack</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-card p-3 border rounded">
+                    <h4>Movie Recommendation System (Nov 2024)</h4>
+                    <p>Oracle SQL, designed ER Diagram</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-card p-3 border rounded">
+                    <h4>Dots and Boxes Game (Aug 2024)</h4>
+                    <p>Python, Pygame</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-card p-3 border rounded">
+                    <h4>Snakes and Ladders Game (May 2024)</h4>
+                    <p>Data Structures Implementation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section id="mentorship" class="container py-5">
+        <h2>Mentorship</h2>
+        <div class="mentorship-box">
+            <h4>Women Engineers Program (2024 - 2026)</h4>
+            <ul>
+                <li>Supported by Google and Offered by TalentSprint.</li>
+                <li>Selected into Cohort-6 out of 30,000+ applicants all over India.</li>
+                <li>Skills - Git, GitLab, Linux/Ubuntu Terminal, Python, LaTeX, Basic DSA, Corporate Development.</li>
+            </ul>
+        </div>
+        <div class="mentorship-box">
+            <h4>NxtWave CCBP 4.0 Academy (2023 - 2027)</h4>
+            <ul>
+                <li>Full-stack development with a specialization in 4.0 technologies.</li>
+                <li>Skills - HTML, CSS, Bootstrap, RDBMS (SQLite), Python, Power BI Tool.</li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+
+    <section id="certifications" class="container py-5 text-center">
+        <h2>Certifications</h2>
+        <div class="certification-grid">
+            <div class="certification-card">
+                <h4>Data Analytics Mega Workshop</h4>
+                <p>By NxtWave CCBP 4.0 Academy, built a dashboard using Power BI, Kaggle and MS Excel.</p>
+            </div>
+            <div class="certification-card">
+                <h4> GIT SET…GO! Workshop</h4>
+                <p>By Indian Society for Technical Education (ISTE), VNR VJIET. Gained a hands-on experience in Git and GitHub.</p>
+            </div>
+            <div class="certification-card">
+                <h4>Cyber Suraksha course</h4>
+                <p>A 40-hour online course by TATA STRIVE and Microsoft, learnt the basics of cyber security.</p>
+            </div>
+            <div class="certification-card">
+                <h4>Java Programming Fundamentals course</h4>
+                <p>Completed the course Java Programming Fundamentals by Infosys Springboard.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    
+    <section id="contact" class="container py-5 text-center">
+        <h2>Contact</h2>
+        <p><b>Email:</b> varshiniragi1807@gmail.com</p>
+        <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/ragi-varshini-reddy" style="color: #49243E;">linkedin.com/in/ragi-varshini-reddy</a></p>
+    </section>
+    
+    <footer class="text-center py-3">
+        <p>Done By - Ragi Varshini Reddy @ NxtWave CCBP 4.0 Academy</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
